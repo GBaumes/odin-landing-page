@@ -19,6 +19,7 @@ body {
 .secondary-text {
   font-size: 18px;
   color: #e5e7eb;
+  margin-left: auto;
 }
 
 .header > .secondary-text > ul {
@@ -29,9 +30,8 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 0% 15%;
+  padding: 0px 250px;
 }
 
 a {
@@ -40,16 +40,20 @@ a {
 }
 
 .hero {
-  padding: 10% 15%;
+  padding: 100px 250px;
   display: flex;
+  justify-content: center;
+  gap: 50px;
 }
 
 .left-container {
-  width: 50%;
+  max-width: 460px;
+  width: 100%;
 }
 
 .right-container {
-  width: 50%;
+  max-width: 450px;
+  width: 100%;
   background-color: darkgrey;
   display: flex;
   justify-content: center;
@@ -64,6 +68,7 @@ a {
 button {
   background-color: #3882f6;
   padding: 5px 25px;
+  margin-top: 10px;
   color: white;
   border-radius: 8px;
   cursor: pointer;
@@ -105,4 +110,61 @@ button {
 
 .card > p {
   margin-top: 10px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.quote-text {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  color: #1f2937;
+  max-width: 750px;
+}
+
+.quote-author {
+  max-width: 700px;
+  width: 100%;
+  text-align: end;
+  font-weight: bold;
+}
+
+.action {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
+.blue-box {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px 60px;
+  border-radius: 8px;
+}
+
+.left-side > h3,
+p {
+  margin: 0;
+}
+
+.blue-box > button {
+  border: 2px solid white;
+}
+
+footer {
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  color: white;
 }
